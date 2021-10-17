@@ -1,0 +1,36 @@
+{
+	"name": "pessek/pessek_ajax",
+	"type": "elgg-plugin",
+	"description": "Ajax utilities",
+	"keywords": [
+		"elgg", "plugin", "blog", "content"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "pessek_ajax"
+	},
+	"require": {
+		"php": ">=7.4",
+		"composer/installers": "^1.0.8"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+	"repositories": [
+		{
+            		"type": "composer",
+            		"url": "https://asset-packagist.org"
+		}
+	],
+        "conflict": {
+                "elgg/elgg": "<4.0"
+        }
+}
